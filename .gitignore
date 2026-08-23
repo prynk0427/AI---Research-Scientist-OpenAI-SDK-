@@ -1,0 +1,32 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime data
+logs/*.log
+data/uploads/*
+data/processed/*
+reports/json/*
+reports/markdown/*
+reports/pdf/*
+
+# Keep runtime directories in Git
+data/uploads/.gitkeep
+data/processed/.gitkeep
+reports/json/.gitkeep
+reports/markdown/.gitkeep
+reports/pdf/.gitkeep
+logs/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
