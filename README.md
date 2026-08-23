@@ -269,14 +269,6 @@ Create a file named `.env` in the project root:
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-**Never commit `.env` or any API key to GitHub.**
-
-For a public repository, you can add a `.env.example` file containing only:
-
-```env
-OPENAI_API_KEY=your_openai_api_key_here
-```
-
 ### 5. Run the application
 
 ```bash
